@@ -1,4 +1,4 @@
-import { BountyForm } from "./components/BountyForm";
+import { BountyForm } from "./components/bountyForm";
 
 export default function Home() {
   return (

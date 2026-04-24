@@ -7,7 +7,6 @@ export class Contract {
   dangerLevel: string;
   deadLine: Date;
   aliveRequired: boolean;
-  notes: string;
 
   constructor(
     hunterName: string,
@@ -18,7 +17,6 @@ export class Contract {
     dangerLevel: string,
     deadLine: Date,
     aliveRequired: boolean,
-    notes: string,
   ) {
     this.hunterName = hunterName;
     this.targetName = targetName;
@@ -28,6 +26,5 @@ export class Contract {
     this.dangerLevel = dangerLevel;
     this.deadLine = deadLine;
     this.aliveRequired = aliveRequired;
-    this.notes = notes;
   }
 }
