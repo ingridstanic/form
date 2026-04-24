@@ -173,10 +173,10 @@ export const BountyForm = () => {
         </label>
         <button className="border border-yellow-300 rounded-sm">Save</button>
       </form>
-      <section className="flex flex-row gap-5">
+      <section className="grid grid-cols-2 gap-5">
         {contracts.map((c) => (
           <div
-            className="border-2 border-yellow-400 rounded-md p-5 w-80"
+            className="border-2 border-yellow-400 rounded-md p-5 w-full"
             key={c.email}
           >
             <h2>Bounty hunter: {c.hunterName}</h2>
